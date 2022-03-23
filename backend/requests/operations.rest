@@ -1,0 +1,17 @@
+GET http://localhost:3001/api/notes/6194af7be724dab14695
+
+
+###
+
+DELETE http://localhost:3001/api/notes/6239899436d8d40653637ace
+
+###
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vdXJcp2FsbWEiLCJpZCI6IjYyMzk4MDMwYWU3MmVkZDdmZjhlZjAxYSIsImldhCI6MTY0Nzk0Mzk4MH0.FhRVP7zle1nOzzJuSq8P6_B-DQcpZAnc2NXr7LkcwOM
+
+{
+    "content" : "Lorem15 does not work here. Why!",
+    "important" : false,
+    "userId" : "62398030ae72edd7ff8ef01a"
+}
